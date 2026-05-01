@@ -1,0 +1,11 @@
+zensical
+
+# TODO
+# mkdocstrings
+# mkdocstrings-python
+# mktestdocs
+# mkdocs-awesome-pages-plugin
+# black
+# mkdocs-glightbox
+# mkdocs-video
+# mkdocs-git-revision-date-localized-plugin
