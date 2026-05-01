@@ -24,10 +24,14 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: 3.x
-      - run: pip install zensical
-      - run: zensical build --clean
+      - name: Pip Install
+        working-directory: ./docs
+        run: pip install -r ./virtenv/requirements.txt
+      - name: Zensical Build
+        working-directory: ./docs
+        run: zensical build --clean
       - uses: actions/upload-pages-artifact@v5
         with:
-          path: site
+          path: docs/site/
       - uses: actions/deploy-pages@v5
         id: deployment
