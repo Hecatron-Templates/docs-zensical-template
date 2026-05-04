@@ -3,7 +3,7 @@
 This is a documentation template using zensical
 This is a successor to mkdocs material
 
-  * https://https://zensical.org
+  * https://zensical.org
 
 visible at:
 

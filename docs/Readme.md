@@ -13,3 +13,8 @@ Zensical based documentation template
 | `build.py build`         | Build the site                                    |
 | `build.py clean`         | clean out the site / build directory              |
 | `build.py serve`         | Serve / preview the site on http://localhost:8000 |
+
+## SilverBullet
+
+I've also included some files within Library
+these can be interpreted and read by silverbullet for markdown editing
